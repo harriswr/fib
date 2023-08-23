@@ -15,10 +15,21 @@ git status
 - show current branch, list of commits, and any untracked files
 
 git add
-- add specified file to commit
+- add specified file to staging area for future commits
 
 git commit -m "message"
 - commits file with commit comment
 
 git log
 - shows commit history
+
+git rm --cached <file>
+- remove specified file(s) from staging area
+
+git restore <file>
+- restore file to discard changes in working directory to last commit
+
+git branch
+- list all branches for the current repository
+
+
