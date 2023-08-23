@@ -1,0 +1,24 @@
+Basics of Git and Github
+
+pull request to make changes to something hosted on github
+
+Useful Git Commands:
+
+git init
+- to initialize a repository in your directory
+
+git checkout -b main
+- create a main branch rather than master default
+- main branch is typical head branch. can checkout other branch for development features.
+
+git status
+- show current branch, list of commits, and any untracked files
+
+git add
+- add specified file to commit
+
+git commit -m "message"
+- commits file with commit comment
+
+git log
+- shows commit history
