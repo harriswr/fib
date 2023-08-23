@@ -34,3 +34,22 @@ git branch
 
 git diff
 - show differences between recent commit and changed files
+- use "--staged" to only see differences in the staged area
+
+git reset <file>
+- remove file from staging area
+
+to make a file not tracked by git, you can make a hidden file called ".gitignore" and list any files not to be tracked there. you need to add and commit the .gitinore file for things not to be tracked.
+
+Using Github:
+
+Create new repository on Github
+
+git remote add origin <SSH_KEY FROM GITHUB> 
+- adds remote server push pull connection to github
+
+git remote -v
+- see current origin
+
+git push origin main
+- push current branch to the github repository
