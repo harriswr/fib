@@ -32,4 +32,5 @@ git restore <file>
 git branch
 - list all branches for the current repository
 
-
+git diff
+- show differences between recent commit and changed files
